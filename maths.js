@@ -35,7 +35,7 @@ function checkAnswer() {
         if (score != 0) { score--; }
         console.log(`Wrong. Score ${score}`);
 
-        alert('Oops! Check your calculations and try to write the numbers more neatly the next time!');
+        alert("Oops! Check your calculations and try to write the numbers more neatly the next time! Note:If it doesn't draw inside the canvas, try drawing it under the canvas.");
         setTimeout(function () {
             backgroundImages.pop();
             document.body.style.backgroundImage = backgroundImages;
